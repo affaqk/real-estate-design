@@ -1,0 +1,50 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.my-img{
+    background: url(../images/3.jpg);
+    width: 500px;
+    height: 500px;
+}
+
+.my-box{
+    width: 400px;
+    /* border: 2px solid black; */
+    /* margin: 20px auto;
+}
+.form-heading{
+    margin: 15px;
+    font-weight: 300;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form label{
+    font-size: 10px;
+}
+
+.my-form input{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 7px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightslategray;
+} */ 
+
+.form-img{
+    width: 250px;
+    height: 250px;
+}
+.center-img{
+    width: 300px;
+    margin: 0 auto;
+}
