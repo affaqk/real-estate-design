@@ -100,6 +100,7 @@
 a{
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 .about-me{
     width: 40vw;
@@ -154,8 +155,7 @@ a{
 }
 
 .products-page-heading{
-    width: 200px;
-    margin: 20px auto;
+    text-align: center;
     font-weight: 300;
 }
 
@@ -192,5 +192,64 @@ a{
     margin: 10px 0;
     font-weight: 300;
 }
+
+.login-page{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.first-child{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 50vw;
+}
+
+.first-child form{
+margin-left: 18vw;
+}
+
+.first-child input{
+    padding: 8px;
+    width: 180px;
+    border-radius: 25px;
+    border: none;
+    margin: 10px 0;
+    background-color: lightgray;
+}
+
+.second-child{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 70vh;
+}
+
+.login-heading{
+    margin-left: 18vw;
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.login-btn{
+    padding: 8px;
+    width: 90px;
+    background-color: orange;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    color: white;
+}
+
+.signup-para{
+    font-weight: 200;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+
 /*  vw ( viewport width */
 /* vh ( viewport height ) */
